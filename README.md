@@ -2,115 +2,54 @@
 ĐỒ ÁN PHÂN TÍCH THIẾT KẾ HỆ THỐNG MSSV K225480106088 HỌ VÀ TÊN : TẠ PHẠM ĐÌNH HÒA TÊN ĐỀ TÀI : QUẢN LÝ TIỆM CẦM ĐỒ
 I. Phân tích hệ thống
 ## DÀN Ý PHÂN TÍCH VÀ THIẾT KẾ HỆ THỐNG QUẢN LÝ TIỆM CẦM ĐỒ
-## I. Giới thiệu hệ thống
-Mô tả bài toán
+MỤC LỤC	
+LỜI CAM ĐOAN	
+DANH MỤC	
+CÁC TỪ VIẾT TẮT	
+DANH MỤC CÁC BẢNG VÀ HÌNH VẼ, ĐỒ THỊ	
+LỜI NÓI ĐẦU	
+CHƯƠNG 1. KHẢO SÁT HỆ THỐNG	
+1.1. Thực trạng của hệ thống	
+1.1.1. Giới thiệu chung về tiệm cầm đồ
+1.1.2 Sơ đồ tổ chức quản lý của tiệm cầm đồ
+1.1.3 Hoạt động của hệ thống hiện tại
+1.2. yêu cầu của hệ thống mới	18
+1.2.1 Những vấn đề cần tháo gỡ trong quản lý tiệm cầm đồ
+1.2.2 Tin học hóa trong công tác quản lý
+1.2.3 Yêu cầu phát sinh hệ thống mới
+CHƯƠNG 2. PHÂN TÍCH HỆ THỐNG
+2.1. Phân tích thông tin vào ra của hệ thống	
+2.1.1 Thông tin vào hệ thống thông tin	
+2.1.2 Thông tin ra của hệ thống thông tin	
+Hệ thống xử lý thông tin	
+2.2.	Phân tích hệ thống
+2.2.1.	Biểu đồ usecase	
+2.2.2.	Biểu đồ lớp	
+2.2.3.	Biểu đồ trạng thái	
+2.2.4.	Biểu đồ hoạt động	
+CHƯƠNG 3. THIẾT KẾ HỆ THỐNG
+3.1. Thiết kế cơ sở dữ liệu	
+3.1.1. Chuẩn hóa quan hệ	
+3.1.2. Mô tả chi tiết cơ sở dữ liệu	
+3.1.3. Sơ đồ thực thể liên kết	
+3.2. Thiết kế hệ thống phần mềm
+CHƯƠNG 4. CÀI ĐẶT CHƯƠNG TRÌNH
+4.1. Giới thiệu chung về ngôn ngữ sql sever
+4.2. Kiểm thử chương trình
+CHƯƠNG 5. NHẬN XÉT VÀ ĐÁNH GIÁ VỀ HỆ THỐNG	
+5.1. Những kết quả đã đạt được	
+5.2. Hướng phát triển của đề tài	
+KẾT LUẬN	
+TÀI LIỆU THAM KHẢO	
+## dealine 4 ngay 11/04/2025
+![image](https://github.com/user-attachments/assets/67f122d1-83f1-40cf-8ec7-5b5e7f0d80d1)
+![image](https://github.com/user-attachments/assets/bb123e45-7974-4d4c-8425-8a7d51a276f6)
+![image](https://github.com/user-attachments/assets/2d65b628-4d1d-4e8c-8ab5-88d50296fb87)
+![image](https://github.com/user-attachments/assets/1ffd52b8-a529-414a-aea9-6a0f7f24537e)
+![image](https://github.com/user-attachments/assets/d28460d3-f508-4678-9a9e-5c30e996d61e)
+![image](https://github.com/user-attachments/assets/1669a8db-6108-436a-a074-2d8a101df980)
+![image](https://github.com/user-attachments/assets/1306b522-2e11-4461-a845-f7299430c74d)
 
-Tiệm cầm đồ cung cấp dịch vụ vay tiền bằng cách thế chấp tài sản.
 
-Hệ thống giúp quản lý thông tin khách hàng, tài sản, hợp đồng, thanh toán, và trạng thái tài sản.
 
-Mục tiêu hệ thống
 
-Tự động hóa quy trình quản lý cầm đồ.
- 
-Giảm thiểu sai sót trong quản lý thông tin.
-
-Theo dõi thanh toán, nhắc nhở hợp đồng đến hạn.
-
-## II. Phân tích hệ thống
-1. Các đối tượng tham gia
-Khách hàng: Đăng ký cầm đồ, thanh toán, chuộc tài sản.
-
-Nhân viên: Quản lý hợp đồng, khách hàng, tài sản.
-
-Quản lý: Theo dõi báo cáo doanh thu, tình trạng hoạt động.
-
-2. Chức năng chính của hệ thống
-Quản lý khách hàng
-
-Thêm/Sửa/Xóa thông tin khách hàng.
-
-Tìm kiếm khách hàng theo CMND/CCCD, tên, số điện thoại.
-
-Quản lý tài sản cầm cố
-
-Lưu trữ thông tin tài sản (tên, loại, mô tả, giá trị định giá).
-
-Quản lý trạng thái tài sản (Đang cầm, Đã chuộc, Thanh lý).
-
-Quản lý hợp đồng cầm đồ
-
-Tạo hợp đồng mới (thông tin khách hàng, tài sản, số tiền vay, lãi suất).
-
-Theo dõi ngày đáo hạn, trạng thái hợp đồng.
-
-Quản lý thanh toán
-
-Ghi nhận thanh toán lãi, gốc, phí trễ hạn.
-
-Xuất biên lai thanh toán.
-
-Quản lý nhân viên
-
-Thêm/Sửa/Xóa thông tin nhân viên.
-
-Phân quyền truy cập hệ thống.
-
-Báo cáo thống kê
-
-Doanh thu theo tháng, năm.
-
-Danh sách hợp đồng sắp hết hạn.
-
-Tổng hợp số lượng tài sản bị thanh lý.
-
-## III. Thiết kế hệ thống
-1. Sơ đồ Use Case
-Các tác nhân: Khách hàng, Nhân viên, Quản lý.
-
-Các chức năng chính như đã nêu ở phần II.
-
-2. Sơ đồ ERD (Mô hình dữ liệu quan hệ)
-Bảng Khách hàng (Customer)
-
-Bảng Tài sản cầm cố (PawnedAsset)
-
-Bảng Hợp đồng cầm đồ (PawnContract)
-
-Bảng Thanh toán (Payment)
-
-Bảng Nhân viên (Employee)
-
-3. Sơ đồ luồng dữ liệu (DFD)
-Level 0: Quản lý khách hàng, tài sản, hợp đồng, thanh toán.
-
-Level 1: Các bước xử lý dữ liệu chi tiết.
-
-4. Thiết kế giao diện
-Màn hình đăng nhập
-
-Màn hình quản lý khách hàng
-
-Màn hình quản lý tài sản
-
-Màn hình tạo hợp đồng
-
-Màn hình thanh toán
-
-Màn hình báo cáo thống kê
-
-## IV. Công nghệ sử dụng
-Frontend: React.js / Vue.js
-
-Backend: Node.js (Express) hoặc Django
-
-Database: MySQL / PostgreSQL
-
-Triển khai: Docker, AWS/GCP
-
-## V. Kết luận
-Hệ thống giúp quản lý hiệu quả khách hàng, hợp đồng, tài sản và thanh toán.
-
-Giảm thiểu rủi ro, tăng hiệu suất vận hành tiệm cầm đồ.
-
-Dễ mở rộng và nâng cấp trong tương lai.
