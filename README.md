@@ -89,6 +89,27 @@ TÀI LIỆU THAM KHẢO
 ![image](https://github.com/user-attachments/assets/1669a8db-6108-436a-a074-2d8a101df980)
 ![image](https://github.com/user-attachments/assets/1306b522-2e11-4461-a845-f7299430c74d)
 
+## dealine 5 ngày 18/04/2025
+truy vấn chức năng theo quản lý khách hàng 
+![image](https://github.com/user-attachments/assets/e4b9501a-3916-422d-8b2b-296b94816726)
+
+truy vấn chức năng theo quản lý tài sản
+![image](https://github.com/user-attachments/assets/dc00fc61-e29c-4475-86ed-7b61c09d2112)
+
+truy vấn chức năng theo giao dịch 
+![image](https://github.com/user-attachments/assets/4c9f732a-3316-411e-89e2-55e5ed5cb163)
+
+truy vấn theo chức năng nhân viên
+![image](https://github.com/user-attachments/assets/416fe40f-0a51-4036-b381-2168cd7dfe2f)
+
+truy vấn thống báo cáo tài sản
+![image](https://github.com/user-attachments/assets/4e0690b6-f2cb-4e70-8491-3c65e89c0258)
+
+
+
+
+
+
 
 
 
